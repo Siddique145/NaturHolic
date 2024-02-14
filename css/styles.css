@@ -80,7 +80,7 @@ body{
     background-color:#c69963
 }
 .btn:hover{
-    color:#b28451
+    color:#070605
 }
 .container{
     display:-ms-grid;
@@ -676,4 +676,25 @@ body{
     color:#aaa;
     text-align:center;
     width:70%
+}
+.last{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.icon img{
+    width: 16px;
+
+}
+.gmail img{
+    height: 25px;
+    width: 100%;
+}
+.last a:hover img{
+    width: 100px;
+}
+.gmail a:hover img{
+    height: 50px;
 }
